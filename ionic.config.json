@@ -1,0 +1,7 @@
+{
+  "name": "ejemploBDCapacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
