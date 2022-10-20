@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Agregar Noticia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding-vertical">
+    <ion-card class="ion-text-center">
+      <ion-card-title>
+        <ion-label>
+          <h1>Modificar Noticia</h1>
+        </ion-label>
+      </ion-card-title>
+
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Titulo</ion-label>
+          <ion-input type="text" [(ngModel)]="tituloNoticia"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Texto Noticia</ion-label>
+          <ion-input type="text" [(ngModel)]="textoNoticia"></ion-input>
+        </ion-item>
+      </ion-card-content>
+      <ion-button shape="block" (click)="editar()">Guardar Noticia</ion-button>
+    </ion-card>
+
+  </div>
+</ion-content>
